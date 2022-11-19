@@ -1,0 +1,18 @@
+.khungHienThi {
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.formDangKy {
+    position: relative;
+}
+
+.formDangKy::after {
+    content: "";
+    position: absolute;
+    background-color: #999;
+    width: 2px;
+    height: 90%;
+    top: 0;
+    left: 70%;
+}
